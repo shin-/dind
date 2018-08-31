@@ -18,7 +18,7 @@ function arch_suffix() {
     fi
 }
 
-if [[ "$VERSION" == *"rc"* ]]; then
+if [[ "$VERSION" == *"rc"* || "$VERSION" == *"tp"* ]]; then
     STAGE=test
 elif is_stable $VERSION; then
     STAGE=stable

@@ -8,7 +8,7 @@ set -e
 
 DOCKER_REPOSITORY=https://github.com/docker/docker-ce.git
 
-MIN_DOCKER_VERSION_TAG=${MIN_DOCKER_VERSION_TAG-"v1.12.0"}
+MIN_DOCKER_VERSION_TAG=${MIN_DOCKER_VERSION_TAG-"v17.06.0-ce"}
 
 DOCKER_IMAGE=${DOCKER_IMAGE:-dockerswarm/dind}
 
